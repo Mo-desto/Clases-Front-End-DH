@@ -62,14 +62,20 @@ a {
 
 .titulo {
     text-align: center;
-    margin-top: 30px;
+    padding: 10px;
+    background-color: #C4C4C4
+}
+.titulo h1 {
+    color: #005677;
+    font-size: 30px;
 }
 .data {
-    padding-left: 40px;
-    padding-right: 40px;
     text-align: left;
 }
 .section-h2 {
+    color: #005677;
+    padding: 10px;
+    background-color: #C4C4C4;
     font-size: 13px;
     text-transform: uppercase;
 }
@@ -91,7 +97,7 @@ a {
     position: relative;
 }
 footer {
-    position: fixed;
+    margin-top: 30px;
     bottom: 0;
     width: -webkit-fill-available;
     background-color: rgb(87, 28, 224);

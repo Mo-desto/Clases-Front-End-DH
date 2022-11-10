@@ -1,0 +1,16 @@
+ * {
+    font-family: roboto;
+    margin: 0;
+ }
+
+ header {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .content {
+    display: flex;
+    position: relative;
+    color: white;
+ }

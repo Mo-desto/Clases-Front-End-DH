@@ -5,12 +5,127 @@
 
  header {
     display: flex;
+    flex-wrap: wrap;
     background-color: black;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
+    padding: 20px;
  }
- .content {
+ .content-logo {
     display: flex;
-    position: relative;
+    align-items: center;
     color: white;
+ }
+ .content-logo h1 {
+   margin-left: 5px;
+   color: white;
+ }
+ .pizza {
+   color: green;
+ }
+ .front {
+   color: red;
+ }
+ .amarillo {
+   color: yellow;
+ }
+ .content-nav {
+   background-color: transparent;
+ }
+ .content-nav nav ul li {
+   list-style: none;
+   display: inline-block;
+ }
+ .content-nav nav ul li a {
+   color: white;
+   text-decoration: none;
+   margin-left: 10px;
+ }
+
+
+ .main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 20px;
+ }
+ .content-left {
+   background-image: url("../img/delivery.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+    box-sizing: content-box;
+    margin: 10px;
+    width: 490px;
+    height: 350px;
+    box-shadow: 0px 8px 6px 1px #7070705e;
+ }
+ .content-right{
+   position: relative;
+    box-sizing: content-box;
+    margin: 10px;
+    width: 490px;
+    height: 350px;;
+    box-shadow: 0px 8px 6px 1px #7070705e;
+ }
+ .h2-flotante {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   color: white;
+ }
+ .content-right h2 {
+   text-align: center;
+    color: red;
+    margin-bottom: 68px;
+ }
+ .content-right h3 {
+   padding-left: 40px;
+   margin-bottom: 30px;
+ }
+ .content-right ol {
+   font-size: 19px
+ }
+
+ .content-right img {
+   position: absolute;
+   bottom: 89px;
+   right: 74px;
+ }
+
+ .right-s {
+   padding: 10px;
+
+ }
+ .right-d {
+   padding: 10px;
+ }
+
+ .content-nav-footer {
+   color: black;
+   margin-bottom: 20px;
+ }
+
+ .content-nav-footer {
+   background-color: transparent;
+ }
+ .content-nav-footer nav ul li {
+   list-style: none;
+   margin-top: 7px;
+ }
+ .content-nav-footer nav ul li a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   margin-left: 10px;
+ }
+ footer {
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   background-color: black;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
  }

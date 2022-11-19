@@ -1,26 +1,40 @@
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    transition: all 0.4s;
     padding: 0;
 }
 .ofertas {
     padding: 20px;
     color: #ffffff;
     background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.pais-moneda {
+    display: flex;
+}
+.pais-moneda p {
+    margin-left: 10px;
 }
 .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     background-color:#F0A83E;
-    
+}
+nav ul {
+    display: flex;
 }
 nav ul li {
+    display: flex;
+    align-items: center;
     list-style: none;
-    display: inline-block;
     margin-left: 5px;
 
 }
 nav ul li img {
+    margin-right: 4px;
     width: 20px;
     color: white;
 }
@@ -28,7 +42,9 @@ nav ul li img {
 nav ul li a {
     text-decoration: none;
     color: white;
-
+}
+.navbar {
+    display: none;
 }
 .content-primero {
     position: relative;
@@ -43,12 +59,30 @@ nav ul li a {
     text-align: center;
 }
 .descripcion {
+    transition: all 0.7s;
     float: right;
     bottom: 0px;
     padding-top: 165px;
     padding-bottom: 165px;
 }
+.descripcion  h1{
+    width: 290px;
+    padding: 5px;
+    background-color: white;
+}
+.descripcion p {
+    color: white;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.descripcion a {
+    padding: 10px;
+    background-color: #f0a83e;
+    color: white;
+    text-decoration: none;
 
+}
 .content {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -76,6 +110,7 @@ nav ul li a {
     color: #666666;
     text-decoration: none;
 }
+
 .articulos {
     padding-top: 20px;
     text-align: center;
@@ -144,4 +179,74 @@ footer{
     background-color: black;
     color: white;
     padding: 15px;
+}
+
+@media (max-width:650px) {
+    .header nav {
+        left: -140px;
+        top: 67px;
+        padding: 10px;
+        z-index: 1;
+        background-color: white;
+        position: absolute;
+    }
+    .header nav ul {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .header nav ul li {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .header nav ul li img {
+        margin-right: 5px;
+        filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+    }
+    .header nav ul li a {
+        color: black;
+    }
+    .header nav ul li a:hover {
+        color: #F0A83E;
+    }
+    .navbar {
+        display: block;
+    }
+    .navbar .fa-bars {
+        cursor:pointer;
+        transition: all 0.4s;
+        font-size: 4.9vh;
+        color: white;
+    }
+    .navbar .fa-bars:hover {
+        transition: all 0.4s;
+        color: black;
+    }
+
+
+
+
+
+    .logito {
+        text-align: center;
+        top: 0;
+        position: relative;
+        float: none;
+        padding-right: 0;
+    }
+}
+@media (max-width:850px) {
+    .descripcion {
+        align-items: center;
+        display: flex;
+        transition: all 0.7s;
+        float: none;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+
+    }
+
 }

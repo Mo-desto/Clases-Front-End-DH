@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.4s;
+    padding: 0;
+}
+.ofertas {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #000000;
+}
+.header {
+    padding: 20px;
+    background-color:#F0A83E;
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+
+}
+nav ul li img {
+    width: 20px;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+.content-primero {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-image: url("../img/slider.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+    text-align: center;
+}
+.descripcion {
+    float: right;
+    bottom: 0px;
+    padding-top: 165px;
+    padding-bottom: 165px;
+}
+
+.content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.eddd {
+    text-align: center;
+}
+.eddd h1 {
+    font-size: 40px;
+}
+.content > .eddd ol {
+
+    padding-top: 15px;
+}
+.content > .eddd ol li {
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.content > .eddd ol li a {
+    color: #666666;
+    text-decoration: none;
+}
+.articulos {
+    padding-top: 20px;
+    text-align: center;
+}
+article {
+    display: inline-block;
+    width: 220px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 5px 38px -27px;
+}
+article > img {
+    width: 220px;
+}
+article > .precio {
+    color: #F0A83E;
+}
+
+.suscribete {
+    background-color: #F0A83E;
+    padding: 15px;
+}
+
+
+
+
+.footer-primero {
+    position: relative;
+    width: -webkit-fill-available;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3C2313;
+    color: white;
+}
+.infote {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.infotes {
+    padding: 10px;
+}
+.infotes img{
+    float: left;
+    padding-right: 20px;
+}
+.infot-left p {
+    color: #8A8787;
+}
+.logito {
+    float: right;
+    /* top: 0; */
+    position: absolute;
+    right: 0;
+    top: 147px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+}
+
+
+footer{ 
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}

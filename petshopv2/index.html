@@ -67,20 +67,41 @@
             </article>
         </div>
 
-        <div>
-            <h2>Contactanos</h2>
-            <p>Nombre y Apellido</p>
-            <p>Ingresa tu correo electronico</p>
-            <p>Teléfono</p>
-                <p>Resetear</p>
-                <p>	Enviar</p>
-        </div>
+            <form action="#" method="GET">
+                <div class="contenido-form">
+                    <div class="title-form">
+                        <h2>Contactenos</h2>
+                    </div>
+                    <div class="form-content">
+                        <div class="form-name">
+                            <label for="nombreapellido"></label>
+                            <input type="text" id="nombreapellido" name="nombre" placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="form-email">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico">
+                        </div>
+                        <div class="form-tel">
+                            <label for="telefono"></label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Telefono">
+                        </div>
+                        <div class="form-button">
+                                <input type="reset" value="Borrar">
+                                <input type="submit" value="Enviar">
+                        </div>
+                    </div>
+                </div>
+            </form>
     </section>
     <section class="suscribete">
-        <img src="img/envio.png" alt="Envio">
-        <h2>Suscribete para más novedades</h2>
-        <p>Ingresa tu correo electronico</p>
-        <p>Suscribirme</p>
+        <div class="suscontent">
+            <img src="img/envio.png" alt="Envio">
+            <h2>Suscribete para más novedades</h2>
+        </div>
+        <div class="susform">
+            <input class="formail" type="email" name="suscribete">
+            <input class="submail" type="submit" name="suscribete" value="Suscribirme">
+        </div>
     </section>
     <section class="footer-primero">
         <div class="logito">

@@ -3,6 +3,9 @@
     font-family: 'Roboto', sans-serif;
     padding: 0;
 }
+input {
+    transition: all 0.4s;
+}
 .ofertas {
     padding: 20px;
     color: #ffffff;
@@ -130,12 +133,45 @@ article > .precio {
 }
 
 .suscribete {
+    align-items: center;
     background-color: #F0A83E;
     padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.suscontent {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.suscontent img {
+    margin-right: 10px;
+    height: 35px;
+}
+.suscontent h2 {
+    color: white;
 }
 
-
-
+.susform {
+    position: relative;
+    display: flex;
+}
+.formail {
+    position: relative;
+    color: black;
+    padding: 10px;
+    width: 220px;
+}
+.submail {
+    margin-left: 10px;
+    background-color: #3C2313 !important;
+    position: relative;
+    height: 40px;
+    width: 100px;
+    color: black;
+    padding: 10px;
+}
 
 .footer-primero {
     position: relative;
@@ -180,6 +216,96 @@ footer{
     color: white;
     padding: 15px;
 }
+form {
+    display: flex;
+    justify-content: center;
+}
+.contenido-form {
+    padding: 5px;
+}
+.title-form {
+    text-align: center;
+    padding: 10px;
+}
+.form-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-name input{
+    margin-top: 10px;
+    background-color: #3C2313;
+    color: white;
+    padding: 15px;
+    width: 275px;
+    height: 10px;
+    font-size:10px;
+}
+.form-email input{
+    margin-top: 10px;
+    background-color: #3C2313;
+    color: white;
+    padding: 15px;
+    width: 275px;
+    height: 10px;
+    font-size:10px;
+}
+.form-tel input{
+    margin-top: 10px;
+    background-color: #3C2313;
+    color: white;
+    padding: 15px;
+    width: 275px;
+    height: 10px;
+    font-size:10px;
+}
+input[type="text"] {
+    border: 0px solid;
+    border-radius: 20px;
+}
+input[type="email"] {
+    border: 0px solid;
+    border-radius: 20px;
+}
+input[type="tel"] {
+    border: 0px solid;
+    border-radius: 20px;
+}
+::placeholder {
+   color: white;
+}
+.form-button {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-button input {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    font-size:10px;
+    margin: 5px;
+    width: 110px;
+}
+input[type="reset"] {
+    cursor: pointer;
+    color: white;
+    background-color: #8A8787;
+    border: 0px solid;
+    border-radius: 20px;
+}
+input[type="submit"] {
+    cursor: pointer;
+    color: white;
+    background-color: #F0A83E;
+    border: 0px solid;
+    border-radius: 20px;
+}
 
 @media (max-width:650px) {
     .header nav {
@@ -217,18 +343,13 @@ footer{
     .navbar .fa-bars {
         cursor:pointer;
         transition: all 0.4s;
-        font-size: 4.9vh;
+        font-size: 3.4vh;
         color: white;
     }
     .navbar .fa-bars:hover {
         transition: all 0.4s;
         color: black;
     }
-
-
-
-
-
     .logito {
         text-align: center;
         top: 0;
@@ -249,4 +370,10 @@ footer{
 
     }
 
+}
+@media  (max-width:790px){
+    .susform {
+        margin-top: 10px;
+    }
+    
 }
